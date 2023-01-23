@@ -3,3 +3,25 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    background-color: rgb(4, 4, 27);
+    color:aliceblue
+}
+
+section{
+    display: grid;
+    place-items: center;
+    align-content: center;
+    min-height: 100vh;
+}
+
+.hidden{
+    opacity: 0;
+    transition: all 1s;
+}
+
+.show{
+    opacity: 1;
+}
+
