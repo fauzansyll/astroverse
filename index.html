@@ -6,24 +6,28 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
-    <script src="app.js"></script>
+    
 </head>
 <body>
 
-    <section class="hidden">
+    <div class="hidden1">
         <h1>ASTROVERSE</h1>
         <p>Beyond the earth</p>
-    </section>
+    </div>
     
-    <section class="hidden">
-        <h2>Explore the oblivion</h2>
-        <p>The things you never see before.
-            the only thing you can explore is the oblivion.
-        </p>
+    
 
-    <section class="hidden">
-        <h2>Blackhole</h2>
-    </section>
-    </section>
+    <script src="anime.min.js"></script>
+    <script>
+        anime({
+            targets:'.hidden1',
+            translateX: 200,
+            opacity: [1,0],
+            duration: 1500,
+            direction:'reverse',
+            easing: 'easeInOutSine'
+            
+        })
+    </script>
 </body>
 </html>
