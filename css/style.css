@@ -1,52 +1,91 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-family: 'Garamond', sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Garamond", sans-serif;
 }
 
-a:link { text-decoration: none; }
-a:visited { text-decoration: none; }
-a:hover { text-decoration: none; }
-a:active { text-decoration: none; }
-
-body{
-    background-color: rgb(4, 4, 27);
-    color:aliceblue
+a:link {
+  text-decoration: none;
+}
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+a:active {
+  text-decoration: none;
 }
 
-section{
-    display: grid;
-    place-items: center;
-    align-content: center;
-    min-height: 100vh;
+body {
+  background-color: rgb(4, 4, 27);
+  color: aliceblue;
 }
 
-.hidden{
-    display: grid;
-    top: 60%;
-    place-items: center;
-    min-height: 80vh;
-    
+section {
+  display: grid;
+  place-items: center;
+  align-content: center;
+  min-height: 100vh;
 }
 
-.container{
-    /* width: 70%; */
-    border:transparent;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    padding-top: 50px;
-    align-items: center;
-    
+.hidden {
+  display: grid;
+  top: 60%;
+  place-items: center;
+  min-height: 80vh;
 }
 
-.items{
-    border:transparent;
-    
+.navbar {
+  /* width: 70%; */
+  border: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  padding-top: 50px;
+  align-items: center;
 }
 
-a{
-    color:white;
-    font-family: 'Garamond', sans-serif;
+.tulisan {
+  display: flex;
+  flex-direction: column;
+}
+
+.space {
+  padding: 100px;
+}
+
+.space .typography {
+  margin-top: 20px;
+}
+
+.astronomy {
+  display: flex;
+  align-self: flex-end;
+  padding: 100px;
+}
+
+.astronomy-title {
+  position: absolute;
+  justify-content: inherit;
+}
+
+.astronomy .typography-astronomy {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin-top: 20px;
+  display: flex;
+  align-items: flex-end;
+  text-align: end;
+}
+
+.items {
+  border: transparent;
+}
+
+a {
+  color: white;
+  font-family: "Garamond", sans-serif;
 }
