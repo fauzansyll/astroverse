@@ -1,56 +1,77 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta
+      http-equiv="X-UA-Compatible"
+      content="IE=edge" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-    <link rel="stylesheet" href="css/style.css">
+    <link
+      rel="stylesheet"
+      href="css/style.css" />
     <script src="js/anime.min.js"></script>
     <script src="js/app.js"></script>
-</head>
-<body>
-
+  </head>
+  <body>
     <div class="container">
-        <a href="#" class="items">Home</a>
-        <a href="#" class="items">About</a>
-        <a href="#" class="items">Research</a>
-        <a href="#" class="items">Invention</a>
-        <a href="#" class="items">Infographic</a>
-
+      <a
+        href="#"
+        class="items"
+        >Home</a
+      >
+      <a
+        href="#"
+        class="items"
+        >About</a
+      >
+      <a
+        href="#"
+        class="items"
+        >Research</a
+      >
+      <a
+        href="#"
+        class="items"
+        >Invention</a
+      >
+      <a
+        href="#"
+        class="items"
+        >Infographic</a
+      >
     </div>
 
-    <div class="hidden" id="pertama">
-        <h1>Astroverse</h1>
-        <!-- <p>Beyond the earth</p> -->
+    <div
+      class="hidden"
+      id="pertama">
+      <h1>Astroverse</h1>
+      <!-- <p>Beyond the earth</p> -->
     </div>
 
-    <div class="hidden" id="kedua">
+    <!-- <div class="hidden" id="kedua">
         <h2>Beyond the earth</h2>
-    </div>
-
-
-    
+    </div> -->
 
     <script>
-        anime({
-            targets:'#pertama',
-            translateY: 100,
-            opacity: [1,0],
-            duration: 1500,
-            direction:'reverse',
-            easing: 'easeInOutSine'
-            
-        })
-        anime({
-            targets:'#kedua',
-            translateY: 100,
-            opacity: [1,0],
-            duration: 1500,
-            direction:'reverse',
-            easing: 'easeInOutSine'
-            
-        })
+      anime({
+        targets: "#pertama",
+        translateY: 100,
+        opacity: [1, 0],
+        duration: 1500,
+        direction: "reverse",
+        easing: "easeInOutSine",
+      });
+      anime({
+        targets: "#kedua",
+        translateY: 100,
+        opacity: [1, 0],
+        duration: 1500,
+        direction: "reverse",
+        easing: "easeInOutSine",
+      });
     </script>
-</body>
+  </body>
 </html>
